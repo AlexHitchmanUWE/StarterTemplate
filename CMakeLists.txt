@@ -10,7 +10,7 @@ include(FetchContent)   # Allows fetching content remotely at configure time
 FetchContent_Declare(   # Fetches SFML from github and puts it in the build directory
     SFML
     GIT_REPOSITORY https://github.com/SFML/SFML.git
-    GIT_TAG 69ea0cd863aed1d4092b970b676924a716ff718b    # Makes sure to fetch SFML version 2.6.1
+    GIT_TAG 69ea0cd863aed1d4092b970b676924a716ff718b    # Makes sure to fetch SFML version 2.6.1 :)
 )
 
 FetchContent_MakeAvailable(SFML)    # Makes sure SFML and its dependencies are avaiable for the project
